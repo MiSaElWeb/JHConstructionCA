@@ -733,9 +733,9 @@ body.home   .testimonial    {
         display: block;
         font-size: 1.125em;
         font-weight: normal;
-        height: 42px;
+        height: 35px;
         left: 12px;
-        padding-top: 4px;
+        padding-top: 10px;
         position: absolute;
         text-align: center;
         top: -8px;
