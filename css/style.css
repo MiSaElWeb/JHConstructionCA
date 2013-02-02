@@ -211,8 +211,8 @@ body.page-id-467    #main   {
 }
 
     h1.page-title   {
-        border-bottom: 1px solid #b1c69b;
-        color: #38541b;
+        border-bottom: 1px solid #999;
+        color: #9d0000;
         font-size: 2.5em;
         font-weight: normal;
         margin-bottom: 16px;
@@ -259,12 +259,12 @@ body.page-id-467    #main   {
     }
     
         .bottom h3  {
-            background-image: -webkit-gradient(linear, left top, left bottom, from(#5f8539), to(#4c6b2d));
-            background-image: -webkit-linear-gradient(#5f8539, #4c6b2d);
-            background-image: -moz-linear-gradient(#5f8539, #4c6b2d);
-            background-image: -ms-linear-gradient(#5f8539, #4c6b2d);
-            background-image: -o-linear-gradient(#5f8539, #4c6b2d);
-            background-image: linear-gradient(#5f8539, #4c6b2d);
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#fd0000), to(#580000));
+            background-image: -webkit-linear-gradient(#fd0000, #580000);
+            background-image: -moz-linear-gradient(#fd0000, #580000);
+            background-image: -ms-linear-gradient(#fd0000, #580000);
+            background-image: -o-linear-gradient(#fd0000, #580000);
+            background-image: linear-gradient(#fd0000, #580000);
             background-color: #5f8539;
             color: #fff;
             display: block;
