@@ -102,7 +102,7 @@
 
 
 			<div id="sidebar" role="complementary">
-				<div id="text-2" class="widget widget_text">			<div class="textwidget"><a rel="shadowbox;width=400;height=600" class="bottom-link SBnoResize" href="contact_us.php"><img src="img/sidebar-button.jpg" border="0" alt="" /></a></div>
+				<div id="text-2" class="widget widget_text">			<div class="textwidget"><a class="bottom-link SBnoResize" data-fancybox-type="iframe" href="http://mgaytan.wufoo.com/embed/z7x4a9/"><img src="img/sidebar-button.jpg" border="0" alt="" /></a></div>
 		</div>							</div>			<div class="clear-both"></div>
 			<div class="bottom">
 				<div class="bottom-section first">
@@ -158,31 +158,22 @@
 			<p>&copy; 2013 JH Construction. All Rights Reserved.</p>
 		</div>
 	</div>
-	<div style="diplay:none;">
-		<div id="wufoo-z7x4a9 form">
-Fill out my <a href="http://mgaytan.wufoo.com/forms/z7x4a9">online form</a>.
-</div>
-<script type="text/javascript">var z7x4a9;(function(d, t) {
-var s = d.createElement(t), options = {
-'userName':'mgaytan', 
-'formHash':'z7x4a9', 
-'autoResize':true,
-'height':'577',
-'async':true,
-'header':'show'};
-s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
-s.onload = s.onreadystatechange = function() {
-var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-try { z7x4a9 = new WufooForm();z7x4a9.initialize(options);z7x4a9.display(); } catch (e) {}};
-var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-})(document, 'script');</script>
-	</div>
 	<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css">
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 	<script src="fancybox/jquery.fancybox.pack.js"></script>
 	<script type="text/javascript">
-		$(document).ready( function() {
-			$('#form').fancybox();
+		$(document).ready(function() {
+			$(".bottom-link").fancybox({
+				maxHeight	: 800,
+				fitToView	: false,
+				width		: '450',
+				height		: '500',
+				autoSize	: true,
+				closeClick	: false,
+				openEffect	: 'none',
+				closeEffect	: 'none',
+				scrolling	: 'auto'
+			});
 		});
 	</script>
 </body>
