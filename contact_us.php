@@ -132,3 +132,58 @@
 				<div class="clear-left"></div>
 			</div>		</div>
 	</div><hr />
+	<div id="footer" role="contentinfo">
+		<div class="container" id="colophon">
+			<div class="footer-logo">
+				<a href="http://www.jhconstructionca.com/" title="Freeman &amp; Son" rel="home">Freeman &amp; Son</a>
+			</div>
+			<div class="menu-footer-container">
+				<ul id="menu-footer" class="menu">
+					<li>
+						<a href="http://www.jhconstructionca.com/">Home</a>
+					</li>
+					<li>
+						<a href="team.html">The Expert Team</a>
+					</li>
+					<li>
+						<a href="services.html">Services</a>
+					</li>
+					<li>
+						<a href="about_us.html">About Us</a>
+					</li>
+					<li>
+						<a href="contact_us.php">Contact Us</a>
+					</li>
+</ul></div>			<div class="clear-both"></div>
+			<p>&copy; 2013 JH Construction. All Rights Reserved.</p>
+		</div>
+	</div>
+	<div style="diplay:none;">
+		<div id="wufoo-z7x4a9 form">
+Fill out my <a href="http://mgaytan.wufoo.com/forms/z7x4a9">online form</a>.
+</div>
+<script type="text/javascript">var z7x4a9;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'mgaytan', 
+'formHash':'z7x4a9', 
+'autoResize':true,
+'height':'577',
+'async':true,
+'header':'show'};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { z7x4a9 = new WufooForm();z7x4a9.initialize(options);z7x4a9.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
+	</div>
+	<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script src="fancybox/jquery.fancybox.pack.js"></script>
+	<script type="text/javascript">
+		$(document).ready( function() {
+			$('#form').fancybox();
+		});
+	</script>
+</body>
+</html>
