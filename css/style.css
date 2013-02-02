@@ -171,7 +171,6 @@ body.home   #header {
             }
             
                 #navigation li  li  {
-                    border-right: 1px solid #fff;
                     display: inline;
                     float: none;
                     font-size: 0.58em;
