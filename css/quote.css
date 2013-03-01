@@ -1,0 +1,32 @@
+/* Quovolver Demo Styles */
+
+/*
+ |	All required styles for the effect
+ |	are labeled with this *required*
+*/
+
+
+/*
+ |	Setting the width for the blockquotes is required
+ |	to accurately adjust it's contianer
+*/
+
+blockquote {
+	font-family: 'GothamBoldRegular', Arial, sans-serif;
+	width: 500px; /* required */
+	margin: 0 auto;
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+}
+	
+/*
+ |	The #quote_wrap div is created
+ |	by Quovolver to wrap the quotes
+*/
+
+#quote_wrap { 
+	position: absolute;
+	top:15px;
+	left:690px;
+}
