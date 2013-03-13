@@ -9,3 +9,6 @@ I'm Currently Working on a fire restoration website that a client asked for and 
 /**************************** February 10 ***********************/
 
 I just started the second version of the website, the 1.0 they didn't like, they said it looked a lot like a competitors, but now i have made a simple 2 bar layout.
+
+/*************************** March 13 **************************/
+I updated the site to a mobile view that is triggered with javascript, and it uses jQuery Mobile

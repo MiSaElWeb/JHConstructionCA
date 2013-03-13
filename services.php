@@ -43,7 +43,7 @@
     	<li><b>Repairing Your Property</b> – After the settlement, we’ll meet with you to document what repairs and replacements make sense in your situation. Then we’ll roll up our sleeves and get to work restoring your home and personal property with a guaranteed completion date and an unlimited “No Smoke Odor Warranty.”</li>
     </ul>   
     
-    <p>Start to finish, we’re there to help you get the most favorable outcome possible. With that in mind, please call us at<br /> <b><i>(951) 111-1111</i></b>. We look forward to talking with you!</p> 
+    <p>Start to finish, we’re there to help you get the most favorable outcome possible. With that in mind, please call us at<br /> <b><i>(951) 634-2888</i></b>. We look forward to talking with you!</p> 
     		</div><!-- end content -->
 
   <div id="sidebar">
